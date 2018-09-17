@@ -1,0 +1,329 @@
+@charset "utf-8";
+@import url(https: //fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP';
+}
+
+
+/* title */
+
+#title {
+    background: url("../images/banner[1].jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 250px 0;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+.main-txt {
+    font-size: 6vw;
+}
+
+.sub-txt {
+    color: red;
+    font-size: 1.5vw;
+}
+
+
+/* info */
+
+#info {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 0;
+}
+
+
+/* introduction */
+
+#introduction {
+    background: lightgray;
+}
+
+#introduction p {
+    text-align: center;
+    padding: 100px 0;
+    margin: 0 10%;
+    line-height: 2.5;
+}
+
+
+/* guest DJ*/
+
+#guestDJ {
+    text-align: center;
+}
+
+.guest-intro {
+    margin: 0 10%;
+    margin-bottom: 60px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* onkenDJ */
+
+#onkenDJ {
+    text-align: center;
+}
+
+.artist {
+    margin-bottom: 50px;
+}
+
+.intro {
+    margin: 0 10%;
+}
+
+
+/* DJ */
+
+.dj-icon {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* time-table */
+
+#time-table {
+    text-align: center;
+    padding-top: 55px;
+}
+
+#time-table h4 {
+    margin-top: 30px;
+    background: black;
+    color: white;
+    padding: 15px 0;
+}
+
+
+/* DTM */
+
+#DTM {
+    background: lightslategray;
+}
+
+.cd-jacket {
+    padding: 20px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.dtm-h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dtm-h3 {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number {
+    color: red;
+    padding-right: 30px;
+}
+
+.track-title {
+    text-align: left;
+}
+
+.fade-mix {
+    margin: 20px 10px;
+}
+
+
+/* twitter */
+
+.timeline {
+    text-align: center;
+}
+
+.twitter-button {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    /*padding: 0.75em 0.75em;*/
+    padding: 1.25em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: #00bcd4;
+    transition: .4s;
+    width: 60%;
+    text-align: center;
+}
+
+.sns {
+    text-align: center;
+}
+
+.txt {
+    margin: 40px 0 10px;
+}
+
+.un_7th {
+    font-size: 45px;
+}
+
+
+/* access */
+
+#access {
+    background: lightgray;
+    padding-bottom: 15px;
+}
+
+.adress {
+    text-align: center;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 25%;
+    /* これが縦横比 */
+    height: 0;
+    overflow: hidden;
+    margin: 0 20%;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/* notice */
+
+#notice {
+    text-align: center !important;
+}
+
+#notice ul {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#notice ul li {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+
+/* footer*/
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+}
+
+
+/* width ~1600px*/
+
+@media screen and (max-width: 1600px) {
+    .google-maps {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .guest-intro {
+        margin: 0 10%;
+        margin-bottom: 60px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .notice ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dtm-h2 {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 1.75em;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .info-col {
+        padding: 25px 0;
+    }
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 100%;
+        /* これが縦横比 */
+        height: 0;
+        overflow: hidden;
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .google-maps {
+        position: relative;
+        padding-bottom: 100%;
+        /* これが縦横比 */
+        height: 0;
+        overflow: hidden;
+        margin: 0 2%;
+    }
+
+    .main-txt {
+        font-size: 10vw;
+    }
+
+    .sub-txt {
+        color: red;
+        font-size: 5vw;
+    }
+
+    .dtm-h2 {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 2em;
+    }
+
+    .notice ul {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
