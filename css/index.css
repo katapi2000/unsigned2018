@@ -64,6 +64,7 @@ header a:hover {
     position: absolute;
     top: 30%;
     width: 100%;
+    user-select: none;
 }
 
 .main-txt {
