@@ -12,8 +12,9 @@ body {
 /* header */
 header {
     padding: 10px 0;
-    background: #bcbcbc;
+    background: black;
     text-align: center;
+    font-size: 1.1em;
 }
 
 header ul {
@@ -25,13 +26,23 @@ header ul {
 header li {
     display: inline;
     border-left: solid 1px #aaa;
-    margin-left: 8px;
-    padding-left: 8px;
+    margin-left: 15px;
+    padding-left: 15px;
 }
 
 header li:last-child {
     border-right: solid 1px #aaa;
     padding: 0 8px;
+}
+
+header a {
+    color: white;
+
+}
+
+header a:hover {
+    text-decoration: none;
+    color: red;
 }
 
 /* title */
@@ -67,30 +78,6 @@ header li:last-child {
     color: white;
 }
 
-/*
-#title {
-    background: url("../images/banner[1].jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    padding: 250px 0;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 55px;
-}
-
-.main-txt {
-    font-size: 6vw;
-}
-
-.sub-txt {
-    color: red;
-    font-size: 1.5vw;
-}
-*/
-
-
 /* info */
 
 #info {
@@ -99,6 +86,10 @@ header li:last-child {
     margin-left: auto;
     padding: 50px 0;
     font-weight: bolder;
+}
+
+.red {
+    color: red;
 }
 
 
@@ -150,6 +141,7 @@ header li:last-child {
 .name {
     font-size: 20px;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 
@@ -160,8 +152,6 @@ header li:last-child {
     height: 200px;
     width: 200px;
 }
-
-/* DJ */
 
 .url {
     margin-bottom: 15px;
@@ -194,6 +184,12 @@ header li:last-child {
     text-align: center;
 }
 
+.square {
+    padding: 1.5em 1em;
+    margin: 1em 0;
+    border: solid 3px #000000;
+}
+
 /* twitter */
 .btn-tw {
     background: #1b95e0;
@@ -211,7 +207,6 @@ header li:last-child {
 .btn-mc:hover {
     background: rgb(67, 74, 71);
 }
-
 
 /* time-table */
 
@@ -246,15 +241,17 @@ header li:last-child {
 .dtm-h2 {
     text-align: center;
     margin: 20px 0;
+    font-size: 2vw;
 }
 
 .dtm-h3 {
-    margin-top: 40px;
+    margin-top: 80px;
     text-align: center;
     padding-bottom: 20px;
 }
 
 table {
+    margin-top: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -288,7 +285,6 @@ table {
     width: 100% !important;
     height: 100% !important;
 }
-
 
 /* twitter */
 
@@ -384,7 +380,7 @@ footer {
 }
 
 
-#guestDJ, #onkenDJ, #time-table, #DTM, #twitter, #access, #notice {
+#guestDJ, #onkenDJ, #time-table, #DTM, #twitter, #access, #staff, #notice {
     padding: 50px 0;
 }
 
@@ -415,6 +411,10 @@ footer {
         text-align: center;
         margin: 20px 0;
         font-size: 1.75em;
+    }
+
+    .un_7th {
+        font-size: 35px;
     }
 }
 
@@ -461,5 +461,11 @@ footer {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .dtm-h2 {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 5vw;
     }
 }
