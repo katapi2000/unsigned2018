@@ -180,17 +180,6 @@ header a:hover {
     vertical-align: top;
 }
 
-/* staff */
-#staff {
-    text-align: center;
-}
-
-.square {
-    padding: 1.5em 1em;
-    margin: 1em 0;
-    border: solid 3px #000000;
-}
-
 /* twitter */
 .btn-tw {
     background: #1b95e0;
@@ -348,20 +337,30 @@ table {
     height: 100% !important;
 }
 
+/* staff */
+#staff {
+    text-align: center;
+}
 
-/* notice */
+.square {
+    padding: 1.5em 1em;
+    margin: 1em 0;
+    border: solid 3px #000000;
+}
 
-#notice {
+/* caution */
+
+#caution {
     text-align: center !important;
 }
 
-#notice ul {
+#caution ul {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#notice ul li {
+#caution ul li {
     text-align: left;
 }
 
@@ -381,7 +380,7 @@ footer {
 }
 
 
-#guestDJ, #onkenDJ, #time-table, #DTM, #twitter, #access, #staff, #notice {
+#guestDJ, #onkenDJ, #time-table, #DTM, #twitter, #access, #staff, #caution {
     padding: 50px 0;
 }
 
