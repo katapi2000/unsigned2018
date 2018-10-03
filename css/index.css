@@ -102,7 +102,9 @@ header a:hover {
 
 #introduction p {
     text-align: center;
-    padding: 100px 0;
+    word-break: normal;
+    font-size: 1.1vw;
+    padding: 80px 0;
     margin: 0 10%;
     line-height: 2.5;
 }
@@ -416,6 +418,15 @@ footer {
     .un_7th {
         font-size: 35px;
     }
+
+    #introduction p {
+        text-align: center;
+        word-break: normal;
+        font-size: 2vw;
+        padding: 80px 0;
+        margin: 0 10%;
+        line-height: 2.5;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -431,6 +442,7 @@ footer {
         overflow: hidden;
         margin: 0 5%;
     }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -467,5 +479,14 @@ footer {
         text-align: center;
         margin: 20px 0;
         font-size: 5vw;
+    }
+
+    #introduction p {
+        text-align: center;
+        word-break: normal;
+        font-size: 3.5vw;
+        padding: 80px 0;
+        margin: 0 5%;
+        line-height: 2.5;
     }
 }
