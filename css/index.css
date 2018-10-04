@@ -103,7 +103,8 @@ header a:hover {
 #introduction p {
     text-align: center;
     word-break: normal;
-    font-size: 1.1vw;
+    font-size: 20px;
+    ;
     padding: 80px 0;
     margin: 0 10%;
     line-height: 2.5;
@@ -256,6 +257,7 @@ table {
 
 .track-title {
     text-align: left;
+    font-size: 18px;
 }
 
 .fade-mix {
@@ -348,6 +350,7 @@ table {
     padding: 1.5em 1em;
     margin: 1em 0;
     border: solid 3px #000000;
+
 }
 
 /* caution */
@@ -392,6 +395,17 @@ footer {
 @media screen and (max-width: 1600px) {
     .google-maps {
         margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #introduction p {
+        text-align: center;
+        word-break: normal;
+        font-size: 2.3vw;
+        padding: 80px 0;
+        margin: 0 10%;
+        line-height: 2.5;
     }
 }
 
