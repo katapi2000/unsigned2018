@@ -60,15 +60,19 @@ h1 {
     background: linear-gradient(transparent 70%, #f39d9d 70%);
 }
 
+.red {
+    color: red;
+}
 
 .txt {
     font-size: 20px;
     margin: 0 5%;
+    margin-top: 100px;
 }
 
-img {
-    margin-bottom: 100px;
-
+.img-txt {
+    text-align: right;
+    font-size: 8px;
 }
 
 /* footer*/
@@ -79,4 +83,33 @@ footer {
     background-color: rgba(0, 0, 0, 0.534);
     color: white;
     margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 3vw;
+        margin-top: 80px;
+        margin-bottom: 30px;
+
+        background: linear-gradient(transparent 70%, #f39d9d 70%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 4vw;
+        margin-top: 80px;
+        margin-bottom: 30px;
+
+        background: linear-gradient(transparent 70%, #f39d9d 70%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 5vw;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        background: liner-gradient(transparent 70%, #f39d9d 70%);
+    }
 }
