@@ -96,6 +96,7 @@ header a:hover {
 
 #introduction {
     background: lightgray;
+    padding-bottom: 30px;
 }
 
 #introduction p {
@@ -108,6 +109,24 @@ header a:hover {
     line-height: 2.5;
 }
 
+a.about-button {
+    display: block;
+    width: 250px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid red;
+    border-radius: 3px;
+    transform: .4s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.about-button:hover {
+    background: red;
+    color: #fff;
+}
 
 /* guest DJ*/
 
