@@ -24,8 +24,8 @@ header ul {
 header li {
     display: inline;
     border-left: solid 1px #aaa;
-    margin-left: 15px;
-    padding-left: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
 }
 
 header li:last-child {
@@ -104,8 +104,30 @@ h1 {
     text-align: center;
 }
 
-.min {
-    margin: 0 20px;
+.hour {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    background: #ff9191;
+}
+
+.min-l,
+.min-r {
+    padding: 0 20px;
+}
+
+tr {
+    border-bottom: 3px dashed #ff9191;
+}
+
+.min-l {
+    text-align: right;
+}
+
+.min-r {
+    text-align: left;
 }
 
 table {
@@ -113,10 +135,17 @@ table {
     margin-left: auto;
 }
 
+
 .parking-img {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.route-img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 a.btn {
@@ -166,6 +195,8 @@ footer {
 
         background: linear-gradient(transparent 70%, #f39d9d 70%);
     }
+
+    .route-img {}
 }
 
 @media screen and (max-width: 400px) {
@@ -174,5 +205,15 @@ footer {
         margin-top: 80px;
         margin-bottom: 30px;
         background: liner-gradient(transparent 70%, #f39d9d 70%);
+    }
+
+    .parking-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .route-img {
+        transform: scale(0.6);
+        transform-origin: top;
     }
 }
