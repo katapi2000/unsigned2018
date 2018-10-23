@@ -5,7 +5,7 @@ particlesJS('hoge', {
 
         //--シェイプの設定----------
         "number": {
-            "value": 30, //シェイプの数
+            "value": 40, //シェイプの数
             "density": {
                 "enable": true, //シェイプの密集度を変更するか否か
                 "value_area": 300 //シェイプの密集度

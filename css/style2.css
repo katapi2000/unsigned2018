@@ -5,7 +5,6 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans JP';
-    text-align: center;
 }
 
 /* header */
@@ -49,6 +48,7 @@ header a:hover {
     padding: 60px 0;
     font-size: 40px;
     font-weight: bolder;
+    text-align: center;
 }
 
 /* main */
@@ -73,6 +73,69 @@ h1 {
 .img-txt {
     text-align: right;
     font-size: 8px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 30%;
+    /* これが縦横比 */
+    height: 0;
+    overflow: hidden;
+    margin: 0 20%;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.square {
+    padding: 1em 0;
+    margin: 1em 0;
+    border: solid 3px #000000;
+    text-align: center;
+}
+
+/* 時刻表 */
+.time-table {
+    text-align: center;
+}
+
+.min {
+    margin: 0 20px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.parking-img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.btn {
+    display: block;
+    width: 250px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid red;
+    border-radius: 3px;
+    transform: .4s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.btn:hover {
+    background: red;
+    color: #fff;
 }
 
 /* footer*/
