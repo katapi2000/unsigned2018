@@ -201,6 +201,18 @@ a.about-button:hover {
     vertical-align: top;
 }
 
+/* dobai */
+.icon-btn {
+    border: 0;
+    background: none;
+}
+
+.gallery {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 /* twitter */
 .btn-tw {
     background: #1b95e0;
