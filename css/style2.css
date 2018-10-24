@@ -209,6 +209,13 @@ footer {
 }
 
 @media screen and (max-width:800px) {
+    h1 {
+        font-size: 6vw;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        background: linear-gradient(transparent 70%, #f39d9d 70%);
+    }
+
     h2 {
         margin-right: auto;
         margin-left: auto;
@@ -221,10 +228,9 @@ footer {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 4vw;
+        font-size: 7vw;
         margin-top: 80px;
         margin-bottom: 30px;
-
         background: linear-gradient(transparent 70%, #f39d9d 70%);
     }
 
@@ -244,7 +250,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     h1 {
-        font-size: 5vw;
+        font-size: 10vw;
         margin-top: 80px;
         margin-bottom: 30px;
         background: liner-gradient(transparent 70%, #f39d9d 70%);
@@ -257,5 +263,14 @@ footer {
 
     .route-img {
         text-align: center;
+    }
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 100%;
+        /* これが縦横比 */
+        height: 0;
+        overflow: hidden;
+        margin: 0 2%;
     }
 }
