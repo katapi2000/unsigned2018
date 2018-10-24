@@ -123,6 +123,7 @@ a.about-button {
     transform: .4s;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 a.about-button:hover {
