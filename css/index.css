@@ -212,6 +212,17 @@ a.about-button:hover {
     max-width: 100%;
 }
 
+.icon-btn {
+    border: 0;
+    background: none;
+}
+
+.gallery {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 /* twitter */
 .btn-tw {
     background: #1b95e0;
