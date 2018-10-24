@@ -246,6 +246,15 @@ footer {
         background: linear-gradient(transparent 20%, #f39d9d 50%);
         margin-top: 50px;
     }
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 100%;
+        /* これが縦横比 */
+        height: 0;
+        overflow: hidden;
+        margin: 0 2%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -265,12 +274,5 @@ footer {
         text-align: center;
     }
 
-    .google-maps {
-        position: relative;
-        padding-bottom: 100%;
-        /* これが縦横比 */
-        height: 0;
-        overflow: hidden;
-        margin: 0 2%;
-    }
+
 }
