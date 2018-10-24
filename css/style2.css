@@ -13,7 +13,7 @@ h2 {
     margin-left: auto;
     text-align: center;
     width: 40%;
-    background: linear-gradient(transparent 50%, #a8eaff 50%);
+    background: linear-gradient(transparent 20%, #f39d9d 50%);
     margin-top: 50px;
 }
 
@@ -102,13 +102,6 @@ h1 {
     height: 100% !important;
 }
 
-.square {
-    padding: 1em 0;
-    margin: 1em 0;
-    border: solid 3px #000000;
-    text-align: center;
-}
-
 /* 時刻表 */
 .time-table {
     text-align: center;
@@ -121,6 +114,16 @@ h1 {
     line-height: 50px;
     text-align: center;
     background: #ff9191;
+    font-weight: bold;
+}
+
+.bustt-title {
+    font-size: 175%;
+}
+
+.bustt-subtitle {
+    margin-bottom: 50px;
+    font-size: 140%;
 }
 
 .min-l,
@@ -130,6 +133,7 @@ h1 {
 
 tr {
     border-bottom: 3px dashed #ff9191;
+    font-weight: bolder;
 }
 
 .min-l {
@@ -143,6 +147,7 @@ tr {
 table {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 150px;
 }
 
 
@@ -177,6 +182,12 @@ a.btn:hover {
     color: #fff;
 }
 
+.train,
+.car {
+    text-align: center;
+    margin-top: 90px;
+}
+
 /* footer*/
 
 footer {
@@ -197,6 +208,17 @@ footer {
     }
 }
 
+@media screen and (max-width:800px) {
+    h2 {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        width: 60%;
+        background: linear-gradient(transparent 20%, #f39d9d 50%);
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 4vw;
@@ -208,6 +230,15 @@ footer {
 
     .route-img {
         text-align: center;
+    }
+
+    h2 {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        width: 80%;
+        background: linear-gradient(transparent 20%, #f39d9d 50%);
+        margin-top: 50px;
     }
 }
 
