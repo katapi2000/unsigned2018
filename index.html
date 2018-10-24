@@ -18,8 +18,9 @@ Unsigned2018のサイトへようこそ！！
     <link href="./css/index.css" rel="stylesheet">
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="css/bootstrap.css" rel="stylesheet">
 
-    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 
     <!-- OGP -->
     <meta property="og:title" content="Unsigned2018 小山高専工陵祭で開催！">
@@ -221,7 +222,34 @@ Unsigned2018のサイトへようこそ！！
 
                 <!-- 早乙女 -->
                 <div class="artist col-xs-12 col-sm-12 col-md-4">
-                    <a href="images/artist/dobai-1.jpg" target="new"><img src="./images/artist/dobai.jpg" class="dj-icon"></a>
+                    <!--押すとモーダル表示-->
+                    <button type="button" class="dj-icon-btn" data-toggle="modal" data-target="#exampleModal">
+                        <img src="./images/artist/dobai.jpg" class="dj-icon">
+                    </button>
+
+                    <!-- モーダルの設定 -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">早乙女</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/dobai/dobai1.jpg" class="dobai-img">
+                                    <img src="images/dobai/dobai2.jpg" class="dobai-img">
+                                    <img src="images/dobai/dobai3.jpg" class="dobai-img">
+                                    <img src="images/dobai/dobai4.jpg" class="dobai-img">
+                                    <img src="images/dobai/dobai5.jpg" class="dobai-img">
+                                    <img src="images/dobai/dobai6.jpg" class="dobai-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- モーダル部分終わり -->
+
                     <p class="name">早乙女</p>
                     <div class="url">
                         <!-- twitter -->

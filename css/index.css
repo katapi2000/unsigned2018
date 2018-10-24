@@ -201,6 +201,17 @@ a.about-button:hover {
     vertical-align: top;
 }
 
+/* dobai */
+.dj-icon-btn {
+    /* ボタンの輪郭を消せる */
+    background: none;
+    border: 0;
+}
+
+.dobai-img {
+    max-width: 100%;
+}
+
 /* twitter */
 .btn-tw {
     background: #1b95e0;
